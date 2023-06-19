@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
+import Api1 from "./Components/Api1";
 // import Effect1 from "./Components/Effect1";
-import LiveSearch from "./Components/LiveSearch";
+// import LiveSearch from "./Components/LiveSearch";
 
 
 const App = () => {
@@ -8,7 +9,8 @@ const App = () => {
     return (
         <div>
             {/* <Effect1 /> */}
-            <LiveSearch />
+            {/* <LiveSearch /> */}
+            <Api1 /> 
         </div>
     )
 }
